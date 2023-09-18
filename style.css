@@ -1,52 +1,65 @@
-/* this is a style sheet for Basic CSS */
-/*
-p {
-    color: #ff0000;
-  }
 
-  p {
-    background-color: #096;
-  }
-*/
-  .specialp {
-    color: #00f
-  }
-  .specialp {
-    background-color: lightgreen;
-  }
+#specialid {
+    background-color:darkslateblue;
+    color: white
+}
+.purp {
+    background-color: darkslateblue;
+}
+.blue {
+    color:blue
+}
+.intext {
+    color:orange
+}
 
- #specialid{
-    color: #060;
-    background-color:orange;
- }
 
- #divexample {
-    background-color: blue;
- }
 
- .spanstyle {
-    color:red
- }
 
- a {
-    color: #ff0000;
+
+.redcolor {
+    color:red;
+}
+.specialp {
+    background-color: yellow;
+}
+.greentitle {
+background-color: darkgreen;
+color:yellow
+}
+.mint {
+    background-color:lightgreen;
+}
+.yellow {
+    background-color: yellow;
+    color: red;
+}
+.yellowp {
+    background-color: yellow;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+a {
+    color: green;
     text-decoration: none;
   }
-
-  a:link {
-    color: #00ff00;
-  }
-
   a:visited {
-    color: #0000ff;
-  }
-
-  a:active {
-    color: #00ffff;
+    color: green
   }
 
   a:hover {
-    color: darkgreen;
+    color:red;
     text-decoration: underline;
   }  
-

@@ -1,10 +1,13 @@
 
+.white {
+    color:white
+}
 #specialid {
     background-color:darkslateblue;
     color: white
 }
-.purp {
-    background-color: darkslateblue;
+#purple {
+background-color:#8397e6;
 }
 .blue {
     color:blue
@@ -38,19 +41,6 @@ color:yellow
     background-color: yellow;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 a {
     color: green;
     text-decoration: none;
@@ -63,3 +53,7 @@ a {
     color:red;
     text-decoration: underline;
   }  
+
+  .darkblue {
+    color:darkblue
+  }

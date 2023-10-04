@@ -1,0 +1,78 @@
+.norm {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    background-color:white;
+    padding: 20px;
+}
+
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    border-bottom: 4px solid #000;
+    padding: 20px;
+    margin: 0px;
+    background-color: white;
+
+}
+body {
+    background-image: url(a5bg.png);
+}
+
+.white {
+    background-color: white;
+    text-align: justify;
+    padding: 10px;
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+}
+
+.white a {
+    text-decoration: none;
+    color: blue;
+    font-weight: bold;
+}
+
+.white a:hover {
+    text-decoration: underline;
+    color:red;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+nav li {
+    display: inline-block;
+    width: 150px;
+    margin: 10px;
+    background-color: darkblue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav li a {
+    color: white;
+    text-decoration: none;
+    display:block;
+    padding: 10px;
+}
+
+nav li a:hover {
+    background-color: lightskyblue;
+}
+
+.blue {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: darkblue;
+    font-style: italic;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    margin-top:10px;
+    padding: 40px;
+    border: solid 5px white;
+    
+   
+}

@@ -1,0 +1,116 @@
+
+h1 {
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    background-color:black;
+    padding: 20px;
+    color: white;
+    margin: 15px;
+}
+
+h2 {
+    border-bottom: 3px solid black;
+    padding-top:  0px;
+    margin-right: 10px;
+    margin-left: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 5px;
+}
+
+.floatimg {
+    float: left;
+    padding: 10px;
+    border: 2px solid black;
+    margin: 5px;
+    width: 300px;
+}
+
+.right {
+    text-align:justify;
+    font-weight:bold;
+}
+
+.center {
+    margin-right:5px;
+    
+}
+body {
+    background-image: url(a62.png);
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: block;
+    width: 215px;
+    margin: 10px;
+    background-color: red;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav li a {
+    color: white;
+    text-decoration: none;
+    display:block;
+    padding: 10px;
+}
+
+nav li a:hover {
+    background-color: darkred;
+}
+
+#wrapper {
+  margin: 1em auto;
+  padding: 0;
+  width: 960px;
+  border: 4px solid black;
+  background-color: #ffffff;
+  display: grid;
+grid-template-columns: repeat(12,1fr);
+grid-template-rows: 1f 1fr 1fr;
+  }
+
+  #footer {
+    clear:both;
+    background-color: red;
+    color:white;
+    padding: 10px;
+    margin: 0px;
+    border-top: 4px solid black;
+    text-align:center;
+    font-style: italic;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+
+  header {
+    grid-column: span 12;
+  }
+
+  nav {
+    grid-column: span 3;
+  }
+
+  main {
+    grid-column: span 9;
+  }
+
+  footer {
+    grid-column: span 12;
+  }
+
+
+.center a {
+  color: red;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.center a:hover {
+  color: blue; 
+  text-decoration: underline;
+  font-weight: bold;
+}

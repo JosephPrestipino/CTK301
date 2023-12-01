@@ -1,0 +1,57 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Javascript</title>
+    <link href="javascript.css" rel="stylesheet" type="text/css" />
+    <title>Javascript</title>
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/carousel/carousel.umd.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/carousel/carousel.css" />
+</head>
+
+<body>
+    <div id="wrapper">
+       <header>
+        <h1>Joseph's Page</h1>
+        <style>
+            .grid-container {
+                display: grid;
+                grid-template-columns: auto; 
+                gap: 10px; 
+            }
+            .col1 { grid-column: 1; }
+            .col2 { grid-column: 2; }
+            .col3 { grid-column: 3; }
+        </style>
+       </header>
+        <nav>
+            <ul>
+                <li><a href="#" target="_blank">Video</a></li>
+                <li><a href="#" target="_blank">Audio</a></li>
+                <li><a href="#" target="_blank">About Me</a></li>
+            </ul>
+        </nav>
+        <main>
+           <body>
+            <div id="myCarousel" class="f-carousel">
+                <div class="f-carousel__slide"><img src="cyber3.jpg"></div>
+                <div class="f-carousel__slide"><img src="cyber2.jpg"></div>
+                <div class="f-carousel__slide"><img src="cyber1.jpg"></div>
+            </div>
+            <div class="grid-container">
+                <p class="col1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, sit id. Quasi perspiciatis omnis excepturi unde ea fugit inventore minus, provident hic voluptatibus quos ipsa eligendi error, dolorem, ratione ab accusantium. Iusto ea magnam fuga! Maxime nisi perferendis nobis porro vel id unde facilis pariatur corrupti eveniet quisquam distinctio laborum assumenda accusantium voluptate aliquid nostrum numquam, quos fugit quas at. Alias magni, inventore quisquam repudiandae reiciendis nemo itaque ipsum accusamus excepturi libero ut vel assumenda qui sed in numquam similique commodi voluptatibus obcaecati consectetur doloribus autem. Ut ab molestiae consectetur adipisci harum deleniti architecto dolor, rerum earum illo, reprehenderit fugiat.</p>
+                <p class="col2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore officiis molestias corporis ipsam culpa voluptatibus perspiciatis sit tempore atque nisi inventore, quis possimus. Natus laboriosam quia ullam incidunt laborum, exercitationem vel, dignissimos quae tenetur tempore sit sint autem labore excepturi doloribus harum molestias enim facilis illo consequatur repellat provident quibusdam. Veniam excepturi deleniti voluptate, a quae quas. Sunt vel aut eos quidem pariatur explicabo dicta consequatur illum placeat aspernatur consectetur nam architecto ea deserunt suscipit, eligendi deleniti cumque eaque adipisci sint debitis temporibus odit! Rerum tempora molestiae voluptatem assumenda iusto, dicta, ex ea officiis aspernatur obcaecati nulla deleniti possimus mollitia.</p>
+                <p class="col3">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sed itaque provident, iste sapiente autem doloremque sit eos totam adipisci, consequatur laudantium eius dolorem molestiae libero non ipsam velit perspiciatis dolore inventore nihil corrupti animi minima illo! Quo atque nam quos, rerum aliquid dolorum, ad accusamus totam vitae blanditiis vel ea veritatis unde reiciendis odit quaerat minima dolores qui fugit labore? Exercitationem accusamus enim nemo veniam voluptatibus recusandae iste architecto, provident, voluptas, nostrum sequi at. Veritatis officia asperiores, quis voluptatum sit mollitia at rerum ipsa distinctio officiis reiciendis ducimus magnam, voluptate repellat, perferendis a autem odio ratione optio. Excepturi, voluptate quas.</p>
+            </div>
+            <script>
+                const container = document.getElementById("myCarousel");
+                const options = { infinite: true };
+                new Carousel(container, options);
+            </script>
+           </body>
+           
+        </main>
+        <footer>
+            Joseph's Page X Bomb Rush Cyberfunk
+        </footer>
+        </div>

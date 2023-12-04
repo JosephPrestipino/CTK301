@@ -1,0 +1,59 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Javascript</title>
+    <link href="final.css" rel="stylesheet" type="text/css" />
+    <title></title>
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css">
+<style>
+    .image-container {
+        display: flex;
+        justify-content: space-around;
+        margin: 20px;
+    }
+
+    .thumbnail {
+        width: 100px;
+        height: 100px;
+        cursor: pointer;
+    }
+</style>
+</head>
+
+<body>
+    <div id="wrapper">
+       <header>
+        <h1>Joseph's Page</h1>
+       </header>
+        <nav>
+            <ul>
+                <li><a href="finalcontact.html" target="_blank">Contact Me</a></li>
+                <li><a href="finalvideo.html" target="_blank">Video</a></li>
+                <li><a href="finalcontact.html" target="_blank">Audio</a></li>
+            </ul>
+        </nav>
+        <main>
+           <body>
+            <div class="image-container">
+            <a href="illusion32.jpg" data-fancybox="gallery" data-caption="Drawing">
+                <img src="illusion32.jpg">
+              </a>
+              <a href="illu2.jpg" data-fancybox="gallery" data-caption="Drawing">
+                <img src="illu2.jpg">
+              </a>
+              <a href="illu1.jpg" data-fancybox="gallery" data-caption="Drawing">
+                <img src="illu1.jpg">
+              </a>
+            </div>
+            <script>   
+                Fancybox.bind("[data-fancybox]", {});
+             </script>
+           </body>
+           
+        </main>
+        <footer>
+            Joseph Prestipino
+        </footer>
+        </div>

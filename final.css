@@ -13,9 +13,11 @@
         grid-column: span 12;
       }
       nav {
-        grid-column: span 12;
+        padding: 10px;
+       border: 2px solid black;
+       border-radius: 10px;
+       grid-column: span 12;
         padding-left: 0px;
-        border-style: groove;
         
         
       }   
@@ -69,6 +71,10 @@
         text-align: center;
         font-family: 'Courier New', Courier, monospace;
         display: block;
+    }
+
+    nav a:hover {
+      font-family: 'Nono Sans Linear A';
     }
 
     img {

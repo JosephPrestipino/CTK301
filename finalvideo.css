@@ -79,4 +79,6 @@
         font-family: 'Courier New', Courier, monospace;
     }
    
-    
+    nav a:hover {
+      font-family: 'Nono Sans Linear A';
+    }
